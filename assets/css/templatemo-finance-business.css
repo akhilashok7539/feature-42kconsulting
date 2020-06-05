@@ -522,7 +522,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/slide_03.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -1089,6 +1089,17 @@ ul.slick-dots {
 .copyright-text
 {
   margin:0
+}
+
+@media (max-width:991px)
+{
+	.left-imagess
+	{
+		margin-left: 30px;
+		/* margin-right: 10px; */
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
 }
 @media (max-width:991px)
 {
