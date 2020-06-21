@@ -7,10 +7,16 @@ https://templatemo.com/tm-545-finance-business
 */
  :root {
 	--yellow:#f7931e ;
+	/* --yellow:#00456f; */
 	/*  var(--yellow)  */
 	 /* -yellow = : var(--yellow) ; */
  }
  
+
+ .imgservice{
+	margin-top: -21px;
+    position: absolute;
+ }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -647,8 +653,42 @@ ul.slick-dots {
 .slick-loading .slick-slide{visibility:hidden}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 
+.imgservices {
+    margin-top: -30px;
+    position: absolute;
+    margin-left: -32px;
+}
 
+.icon-box:hover .middle{ 
+color: black;
+}
+.icon-box:hover .imgservices {
+	opacity: 0.3;
+	background-color: #f7931e;
 
+  }
+/* CSS used here will be applied after bootstrap.css */
+
+/* .col-sm-5cols{
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+.col-sm-5cols {
+        width: 20%;
+        float: left;
+    }
+} */
+@media (max-width: 768px)
+{
+	.settingicon
+	{
+		display: none;
+	}
+}
 
 /* Request Form */
 
@@ -659,7 +699,7 @@ ul.slick-dots {
 }
 
 .request-form h4 {
-	font-size: 22px;
+    font-size: 21px;	
 	font-weight: 600;
 }
 
